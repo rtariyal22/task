@@ -24,14 +24,14 @@ support time and more time to do actual development for our team.
 # Uk postal number
 ## PostCode API -> UKPostcode
 - E.g
-from postcode import UKPostcode
-> try:
->    postCodeObj = UKPostcode('B1 1HQ')
->except ValueError:
->    print('Invalid postcode')
->else:
->    - printing out postcode various segments
->    postCodeObj.printDetails()
+- from postcode import UKPostcode
+- try:
+-    postCodeObj = UKPostcode('B1 1HQ')
+-except ValueError:
+-    print('Invalid postcode')
+-else:
+-    printing out postcode various segments
+-    postCodeObj.printDetails()
 
 ## Running postcode api tests
 - python test_postcode.py
