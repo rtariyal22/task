@@ -27,9 +27,9 @@ support time and more time to do actual development for our team.
 - from postcode import UKPostcode
 - try:
 -    postCodeObj = UKPostcode('B1 1HQ')
--except ValueError:
+- except ValueError:
 -    print('Invalid postcode')
--else:
+- else:
 -    printing out postcode various segments
 -    postCodeObj.printDetails()
 
